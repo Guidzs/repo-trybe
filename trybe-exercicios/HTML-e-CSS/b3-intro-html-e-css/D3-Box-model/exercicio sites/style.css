@@ -1,0 +1,9 @@
+h1, p {
+    text-align: center;
+}
+li:hover {
+    background-color: rgb(156, 39, 35);
+}
+li:active {
+    color: aliceblue;
+}
