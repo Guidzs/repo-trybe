@@ -1,14 +1,14 @@
 ////  parte 1
 
-const a = 0
-const b = 3
-const c = 5
+// const a = 10;
+// const b = 20;
+// const c = 90;
 
-// const adicao = a + b
-// const subtracao = a - b
-// const multiplicacao = a * b
-// const divisao = a / b
-// const modulo = a % b
+// const adicao = a + b;
+// const subtracao = a - b;
+// const multiplicacao = a * b;
+// const divisao = a / b;
+// const modulo = a % b;
 
 //// parte 2
 
@@ -120,4 +120,30 @@ const c = 5
 // } 
 // else {
 //     console.log(false)
+<<<<<<< HEAD:trybe-exercicios/JavaScript/D1-recursos/exercicios if else/scripts.js
+=======
+// }
+
+//// parte 9
+
+// if ((a % 2) === 1 || (b % 2) === 1 || (c % 2) === 1) {
+//     console.log(true)
+// } 
+// else {
+//     console.log(false)
+// }
+
+//// parte 10
+
+// const custo = 10;
+// const valor = 20;
+// const imposto = custo * 0.2;
+// const custoTotal = custo + imposto;
+// const lucro = valor - custoTotal;
+
+// if (custo === 0 || valor === 0) {
+//     console.log('Erro.')
+// } else {
+//     console.log(lucro)
+>>>>>>> exercicios/4.1:trybe-exercicios/JavaScript/exercicios if else/scripts.js
 // }
