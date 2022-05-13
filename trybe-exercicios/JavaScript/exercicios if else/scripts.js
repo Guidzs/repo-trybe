@@ -132,3 +132,15 @@
 // }
 
 //// parte 10
+
+const custo = 10;
+const valor = 20;
+const imposto = custo * 0.2;
+const custoTotal = custo + imposto;
+const lucro = valor - custoTotal;
+
+if (custo === 0 || valor === 0) {
+    console.log('Erro.')
+} else {
+    console.log(lucro)
+}
