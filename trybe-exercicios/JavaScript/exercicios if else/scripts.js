@@ -1,8 +1,8 @@
 ////  parte 1
 
-// const a = 0
-// const b = 3
-// const c = 5
+const a = 0
+const b = 3
+const c = 5
 
 // const adicao = a + b
 // const subtracao = a - b
@@ -86,3 +86,38 @@
 
 //// parte 7
 
+// let notaEmPorcentagem = -30;
+// let notaEmLetra = "";
+
+// if (notaEmPorcentagem >=90 && notaEmPorcentagem <= 100) {
+//     notaEmLetra = "A"
+// }
+// else if (notaEmPorcentagem >= 80 && notaEmPorcentagem < 90) {
+//     notaEmLetra = "B"
+// }
+// else if (notaEmPorcentagem >= 70 && notaEmPorcentagem < 80) {
+//     notaEmLetra = "C"
+// }
+// else if (notaEmPorcentagem >= 60 && notaEmPorcentagem < 70) {
+//     notaEmLetra = "D"
+// }
+// else if (notaEmPorcentagem >= 50 && notaEmPorcentagem < 60) {
+//     notaEmLetra = "E"
+// }
+// else if (notaEmPorcentagem < 50 && notaEmPorcentagem >= 0) {
+//     notaEmLetra = "f"
+// } 
+// else if (notaEmPorcentagem > 100 || notaEmPorcentagem < 0) {
+//     console.log("Erro. Nota invalida!")
+// }
+
+// console.log(notaEmLetra)
+
+//// parte 8
+
+if ((a % 2) === 0 || (b % 2) === 0 || (c % 2) === 0) {
+    console.log(true)
+} 
+else {
+    console.log(false)
+}
