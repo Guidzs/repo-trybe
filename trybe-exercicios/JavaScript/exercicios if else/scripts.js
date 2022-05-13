@@ -1,14 +1,14 @@
 ////  parte 1
 
-const a = 0
-const b = 3
-const c = 5
+// const a = 10;
+// const b = 20;
+// const c = 90;
 
-// const adicao = a + b
-// const subtracao = a - b
-// const multiplicacao = a * b
-// const divisao = a / b
-// const modulo = a % b
+// const adicao = a + b;
+// const subtracao = a - b;
+// const multiplicacao = a * b;
+// const divisao = a / b;
+// const modulo = a % b;
 
 //// parte 2
 
@@ -115,9 +115,20 @@ const c = 5
 
 //// parte 8
 
-if ((a % 2) === 0 || (b % 2) === 0 || (c % 2) === 0) {
-    console.log(true)
-} 
-else {
-    console.log(false)
-}
+// if ((a % 2) === 0 || (b % 2) === 0 || (c % 2) === 0) {
+//     console.log(true)
+// } 
+// else {
+//     console.log(false)
+// }
+
+//// parte 9
+
+// if ((a % 2) === 1 || (b % 2) === 1 || (c % 2) === 1) {
+//     console.log(true)
+// } 
+// else {
+//     console.log(false)
+// }
+
+//// parte 10
