@@ -1,8 +1,9 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27, 10003];
 let numbersSoma = 0;
-let largestNumber = 0;
+let largestNumber = Number.NEGATIVE_INFINITY;
 let imparNumbers = 0;
-let smallestNumber = 0;
+let smallestNumber = Number.POSITIVE_INFINITY;
+let n1_25 = [];
 
 // console.log(numbers)
 
@@ -37,11 +38,19 @@ let smallestNumber = 0;
 //     console.log('Nenhum valor ímpar encontrado')
 // }
 
-for (let index = 0; index < numbers.length; index += 1) {
-    for (let index2 = 0; index2 < numbers.length; index2 += 1) {
-        if (numbers[index] < numbers[index2]) {
-            smallestNumber = numbers[index]
-         }          
-      }
+// for (let index = 0; index < numbers.length; index += 1) {
+//       if (numbers[index] < smallestNumber) {
+//         smallestNumber = numbers[index]
+//       } 
+// }
+// console.log(smallestNumber)
+
+
+for (let index = 1; index < 26; index++) {
+    n1_25.push(index)
 }
-console.log(smallestNumber)
+console.log(n1_25)
+
+for (let index = 0; index < n1_25.length; index += 1) {
+   console.log(n1_25[index] / 2)
+}
