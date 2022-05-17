@@ -18,12 +18,3 @@
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 let maiorPalavra = '';
 let menorPalavra = '';
-
-for (let i = 0; i < array.length; i += 1) {
-   for (let i2 = 0; i2 < array.length; i2 += 1) {
-       if (array[i] > array[i2]) {
-           maiorPalavra = array[i]
-       }
-   }
-}
-console.log(maiorPalavra)
