@@ -46,11 +46,11 @@ let n1_25 = [];
 // console.log(smallestNumber)
 
 
-for (let index = 1; index < 26; index++) {
-    n1_25.push(index)
-}
-console.log(n1_25)
+// for (let index = 1; index < 26; index++) {
+//     n1_25.push(index)
+// }
+// console.log(n1_25)
 
-for (let index = 0; index < n1_25.length; index += 1) {
-   console.log(n1_25[index] / 2)
-}
+// for (let index = 0; index < n1_25.length; index += 1) {
+//    console.log(n1_25[index] / 2)
+// }
