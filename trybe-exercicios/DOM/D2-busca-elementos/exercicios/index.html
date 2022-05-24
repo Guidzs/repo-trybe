@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício 5.2</title>
+  <style>
+    section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+
+    .main-content .left-content {
+      background-color: green;
+      width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .main-content .left-content .small-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+    }
+
+    .main-content .right-content {
+      background-color: blue;
+      width: 60%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .main-content .description {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body id="body">
+  <script>
+    let body = document.querySelector('#body')
+
+    function createElements(element, id, classes, content) {
+      let newElement;
+      
+      if (element === undefined) {
+        return 'Erro! elemento não definido'
+      }
+      else if (classes === undefined) {
+        newElement = element.createElement(id)
+        return newElement
+      }
+      else if (content === undefined) {
+        newElement = element.createElement(id)
+        newElement.className(classes)
+        return newElement
+      }
+      newElement = element.createElement(id)
+      newElement.className(classes)
+      newElement.innerText(content)
+      return newElement
+    }
+
+    function addElements(parent, chilld) {
+      parent.appendChild(child)
+    }
+    addElements(body, createElements('h1', 'title', 'head', 'Exercício 5.2 - JavaScript DOM'))
+
+  </script>
+</body>
+
+</html>
