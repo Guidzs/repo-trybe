@@ -30,3 +30,7 @@ input.input-box{
   background-color: rgb(186, 205, 212);
   border-radius: 7px;
 }
+
+input[type="rdio"]{
+  size: 100px;
+}
