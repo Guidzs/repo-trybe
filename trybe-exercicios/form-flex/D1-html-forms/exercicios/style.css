@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-
-
 .container {
-  text-align: center;
   margin: 30px auto 0px;
   padding: 40px;
   background-color: rgb(116, 125, 129);
@@ -17,8 +14,19 @@
 }
 
 .container h1 {
+  text-align: center;
   font-size: 70px;
 }
 .container p {
+  text-align: center;
   font-size: 30px;
+}
+
+div {
+  padding-bottom: 10px;
+}
+
+input.input-box{
+  background-color: rgb(186, 205, 212);
+  border-radius: 7px;
 }
