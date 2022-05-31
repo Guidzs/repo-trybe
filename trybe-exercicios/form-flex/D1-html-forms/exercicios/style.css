@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  text-align: center;
+  margin: 30px auto 0px;
+  padding: 40px;
+  background-color: rgb(116, 125, 129);
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 5px;
+  width: 80%;
+}
+
+.container h1 {
+  font-size: 70px;
+}
+.container p {
+  font-size: 30px;
+}
