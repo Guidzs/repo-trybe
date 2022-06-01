@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -20,17 +21,17 @@
   <form action="" method="get"></form>
      <main class="container">
     
-      <div>
+      <div class="container input-group mb-3">
         <label for="full-name" class="input-group-text">Nome Completo:</label>
         <input type="text" name="full-name" id="full-name" class="form-control" minlength="10" maxlength="40" placeholder="Digite seu nome completo" required>
       </div>
 
-      <div>
+      <div class="container input-group mb-3">
         <label for="input-email" class="input-group-text">E-mail:</label>
         <input type="email" name="email" id="input-email" class="form-control" minlength="10" maxlength="50" placeholder="Digite seu e-mail" required>
       </div>
 
-      <div>
+      <div class="container">
         <input type="radio" name="local" id="input-local-1" class="form-check-input"  value="city">
         <label for="input-local-1" class="form-check-label">
           Cidade
@@ -49,19 +50,19 @@
         </label>
       </div>
 
-      <div class="form-floating">
+      <div class="form-floating container">
         <textarea name="motive" id="text-motive" maxlength="500" class="form-control"></textarea>
         <label for="text-motive">
           Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
         </label>
       </div>
 
-      <div>
+      <div class="container input-group mb-3">
         <label for="best-date">Melhor Data:</label>
         <input type="date" name="date" id="best-date" required>
       </div>
 
-      <div class="form-switch">
+      <div class="form-switch container">
         <input type="checkbox" name="opportunity" id="checkbox-opportunity" class="form-check-input">
         <label for="checkbox-opportunity" class="form-check-label">
           Quero receber novas <strong>Oportunidades</strong>!
