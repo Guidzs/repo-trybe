@@ -12,8 +12,8 @@
 </head>
 
 <body>
-  <header class="container">
-    <h1>Concurso TrybeTrip</h1>
+  <header class="container text-center">
+    <h1 class=" display-1">Concurso TrybeTrip</h1>
     <p>Tenha as <strong>melhores ferias</strong> com a trybe trip</p>
   </header>
 
@@ -21,30 +21,30 @@
      <main class="container">
     
       <div>
-        <label for="full-name">Nome Completo:</label>
-        <input type="text" name="full-name" id="full-name" class="input-box" minlength="10" maxlength="40" placeholder="Digite seu nome completo" required>
+        <label for="full-name" class="input-group-text">Nome Completo:</label>
+        <input type="text" name="full-name" id="full-name" class="form-control" minlength="10" maxlength="40" placeholder="Digite seu nome completo" required>
       </div>
 
       <div>
-        <label for="input-email">E-mail:</label>
-        <input type="email" name="email" id="input-email" class="input-box" minlength="10" maxlength="50" placeholder="Digite seu e-mail" required>
+        <label for="input-email" class="input-group-text">E-mail:</label>
+        <input type="email" name="email" id="input-email" class="form-control" minlength="10" maxlength="50" placeholder="Digite seu e-mail" required>
       </div>
 
       <div>
-        <input type="radio" name="local" id="input-local-1"  value="city">
-        <label for="input-local-1">
+        <input type="radio" name="local" id="input-local-1" class="form-check-input"  value="city">
+        <label for="input-local-1" class="form-check-label">
           Cidade
         </label>
-        <input type="radio" name="local" id="input-local-2"  value="camp">
-        <label for="input-local-2">
+        <input type="radio" name="local" id="input-local-2"class="form-check-input"  value="camp">
+        <label for="input-local-2" class="form-check-label">
           Campo
         </label>
-        <input type="radio" name="local" id="input-local-3"  value="beach">
-        <label for="input-local-3">
+        <input type="radio" name="local" id="input-local-3" class="form-check-input"  value="beach">
+        <label for="input-local-3" class="form-check-label">
           Praia
         </label>
-        <input type="radio" name="local" id="input-local-4"  value="montain">
-        <label for="input-local-4">
+        <input type="radio" name="local" id="input-local-4" class="form-check-input"  value="montain">
+        <label for="input-local-4" class="form-check-label">
           Montanha
         </label>
       </div>
@@ -58,7 +58,7 @@
 
       <div>
         <label for="best-date">Melhor Data:</label>
-        <input type="date" name="date" id="best-date" class="input-box"required>
+        <input type="date" name="date" id="best-date" required>
       </div>
 
       <div>
@@ -72,7 +72,7 @@
       </div>
     </main>
 
-    <section class="buttons container">
+    <section class="container">
       <button type="submit" class="btn btn-success">Enviar</button>
 
       <button type="reset" class="btn btn-danger">Apagar</button>
