@@ -15,38 +15,68 @@
     <p>Tenha as <strong>melhores ferias</strong> com a trybe trip</p>
   </header>
 
-  <main class="container">
+  <form action="" method="get"></form>
+     <main class="container">
+    
+      <div>
+        <label for="full-name">Nome Completo:</label>
+        <input type="text" name="full-name" id="full-name" class="input-box" minlength="10" maxlength="40" placeholder="Digite seu nome completo" required>
+      </div>
 
-    <div>
-      <label for="full-name">Nome Completo:</label>
-      <input type="text" name="full-name" id="full-name" class="input-box" minlength="10" maxlength="40" placeholder="Digite seu nome completo" required>
-    </div>
+      <div>
+        <label for="input-email">E-mail:</label>
+        <input type="email" name="email" id="input-email" class="input-box" minlength="10" maxlength="50" placeholder="Digite seu e-mail" required>
+      </div>
 
-    <div>
-      <label for="input-email">E-mail:</label>
-      <input type="email" name="email" id="input-email" class="input-box" minlength="10" maxlength="50" placeholder="Digite seu e-mail" required>
-    </div>
+      <div>
+        <input type="radio" name="local" id="input-local-1"  value="city">
+        <label for="input-local-1">
+          Cidade
+        </label>
+        <input type="radio" name="local" id="input-local-2"  value="camp">
+        <label for="input-local-2">
+          Campo
+        </label>
+        <input type="radio" name="local" id="input-local-3"  value="beach">
+        <label for="input-local-3">
+          Praia
+        </label>
+        <input type="radio" name="local" id="input-local-4"  value="montain">
+        <label for="input-local-4">
+          Montanha
+        </label>
+      </div>
 
-    <div>
-      <input type="radio" name="local" id="input-local-1"  value="city">
-      <label for="input-local-1">
-        Cidade
-      </label>
-      <input type="radio" name="local" id="input-local-2"  value="camp">
-      <label for="input-local-2">
-        Campo
-      </label>
-      <input type="radio" name="local" id="input-local-3"  value="beach">
-      <label for="input-local-3">
-        Praia
-      </label>
-      <input type="radio" name="local" id="input-local-4"  value="montain">
-      <label for="input-local-4">
-        Montanha
-      </label>
-    </div>
+      <div>
+        <label for="text-motive">
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+        </label>
+        <textarea name="motive" id="text-motive" rows="10" maxlength="500"></textarea>
+      </div>
 
-  </main>
+      <div>
+        <label for="best-date">Melhor Data:</label>
+        <input type="date" name="date" id="best-date" class="input-box"required>
+      </div>
+
+      <div>
+        <input type="checkbox" name="opportunity" id="checkbox-opportunity">
+        <label for="checkbox-opportunity">Quero receber novas <strong>Oportunidades</strong>!</label>
+        <br>
+        <input type="checkbox" name="publicizing" id="checkbox-publicizing">
+        <label for="checkbox-publicizing">
+          Concordo utilizar minhas imagens para divulgações.
+        </label>
+      </div>
+    </main>
+
+    <section class="buttons">
+      <button type="submit" class="button">Enviar</button>
+
+      <button type="reset" class="button">Apagar</button>
+    </section>
+  </form>
+  <script src="script.js"></script>
 </body>
 
 </html>

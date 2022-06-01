@@ -4,13 +4,27 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: whitesmoke;
+}
+
 .container {
   margin: 30px auto 0px;
   padding: 40px;
-  background-color: rgb(116, 125, 129);
+  background-color: #11a36a;
   border: 1px solid rgb(83, 83, 83);
   border-radius: 5px;
   width: 80%;
+}
+
+.buttons {
+  text-align: center;
+  margin: 30px auto 60px;
+  padding: 20px;
+  background-color: #11a36a;
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 5px;
+  width: 15%;
 }
 
 .container h1 {
@@ -31,6 +45,14 @@ input.input-box{
   border-radius: 7px;
 }
 
-input[type="rdio"]{
-  size: 100px;
+#text-motive {
+  width: 100%;
+  resize: none;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 7px;
+  background-color: rgb(186, 205, 212);
+  size: 10px;
 }
