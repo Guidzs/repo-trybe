@@ -1,0 +1,11 @@
+#div-count {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#btn-count {
+  height: 200px;
+  width: 200px;
+}
