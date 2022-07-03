@@ -120,8 +120,7 @@
 // } 
 // else {
 //     console.log(false)
-<<<<<<< HEAD:trybe-exercicios/JavaScript/D1-recursos/exercicios if else/scripts.js
-=======
+
 // }
 
 //// parte 9
@@ -145,5 +144,4 @@
 //     console.log('Erro.')
 // } else {
 //     console.log(lucro)
->>>>>>> exercicios/4.1:trybe-exercicios/JavaScript/exercicios if else/scripts.js
 // }
