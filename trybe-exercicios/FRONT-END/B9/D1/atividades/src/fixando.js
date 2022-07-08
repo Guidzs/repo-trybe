@@ -46,9 +46,3 @@ getCountry(countryName, printErrorMessage);
 
 // Deve imprimir "Brazil's currency is the Real" no sucesso, ou "Error getting country: Country could not be found" em caso de falha
 getCountry(countryCurrency, printErrorMessage);
-
-const sum = (a, b) => a + b;
-
-test('sums two values', () => {
-  expect(sum(2, 3)).toEqual(5);
-});
