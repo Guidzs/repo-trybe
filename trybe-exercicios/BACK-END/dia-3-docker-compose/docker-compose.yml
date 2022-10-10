@@ -1,0 +1,15 @@
+version: '3'
+services:
+  frnt:
+    build: /frnt
+    ports:
+      - 3000:3000
+  bck:
+    build: /bck
+    ports:
+      - 3001:3001
+    environment:
+      - DB_HOST=db
+  db:
+    image: betrybe/docker-compose-example-database:v1
+    restart: on-failure
